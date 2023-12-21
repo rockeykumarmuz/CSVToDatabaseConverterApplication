@@ -17,6 +17,4 @@ public class CustomerController {
     public void setDataInDB() throws IOException {
         customerService.saveCustomerData();
     }
-
-
 }

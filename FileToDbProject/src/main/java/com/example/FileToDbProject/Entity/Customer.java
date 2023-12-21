@@ -25,10 +25,10 @@ public class Customer {
     String symbolCode;
     String tradingSymbol;
     String name;
-    double lastPrice;
+    String lastPrice;
     String instrument;
     String lotSize;
-    double strikePrice;
+    String strikePrice;
     String expiryDate;
     String tickSize;
 
@@ -49,6 +49,5 @@ public class Customer {
                 ", tickSize='" + tickSize + '\'' +
                 '}';
     }
-
 
 }
